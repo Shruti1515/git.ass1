@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GITHUB</title>
+
+    <style>
+         #parent{
+            display: grid;
+            grid-template-rows: fit-content(100%);
+            grid-template-columns: repeat(4, 1fr);
+            
+        }
+
+        #parent div{
+            border-radius: 1%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 2%;
+        }
+
+    </style>
 </head>
 <body>
-    <H1>HELLO TO ALL</H1>
-    <p>We are creating first assignment</p>
+    <div id="parent">
+    <div class="box">
+        <img src="Ankush_Sachdeva_Sharechat_4e44dbbe6b.png">
+        <h3>Ankush Sachdeva</h3>
+        <p>Co-Founder & CEO</p>
+        <a><img src="paytm.png" id="logo"></a>
+    </div>
+    <div class="box">
+        <img src="bhanu_pratap_singh_sharechat_11fdd7b47a.png">
+        <h3>Bhanu Pratap Singh</h3>
+        <p>Co-Founder & CTO</p>
+        <a><img src="paytm.png" id="logo"></a>
+    </div>
+    <div class="box">
+        <img src="farid_ahsan_sharechat_1251f28141.png">
+        <h3>Farid Ahsan</h3>
+        <p>Co-Founder & COO</p>
+        <a><img src="paytm.png" id="logo"></a>
+    </div>
+    <div class="box">
+        <img src="Amit_Kumar_Agarwal_Nobroker_a8a279ad91.png">
+        <h3>Amit Kumar Agarwal</h3>
+        <p>Founder & CEO</p>
+        <a><img src="paytm.png" id="logo"></a>
+    </div>
+</div>
+
 </body>
 </html>
